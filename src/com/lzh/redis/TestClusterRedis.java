@@ -12,7 +12,8 @@ public class TestClusterRedis {
 	
 	public static void main(String[] args) {
 	
-		Set<HostAndPort> jedisClusterNode=new HashSet<>();
+		Set<HostAndPort> jedisClusterNode=new HashSet<>();	
+		
 		jedisClusterNode.add(new HostAndPort("192.168.183.128", 7001));
 		jedisClusterNode.add(new HostAndPort("192.168.183.128", 7002));
 		jedisClusterNode.add(new HostAndPort("192.168.183.128", 7003));
